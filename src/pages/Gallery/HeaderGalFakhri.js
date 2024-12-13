@@ -55,7 +55,7 @@ const HeaderGalFakhri = () => {
           <i className="fas fa-times"></i>
           <span>Close</span>
         </a>
-        <a href="/">Home</a>
+        <a href="/">Back To Main</a> //balik kerumah//
       </div>
     </header>
   );
