@@ -45,7 +45,7 @@ const YouTubeIframe = ({ videoId }) => {
   return (
     <div>
       {/* The div where the YouTube player will be mounted */}
-      <div id="youtube-player" style={{ width: "100%", height: "860px" }}></div>
+      <div id="youtube-player" style={{ width: "720px", height: "430px", margin : "0 0 0 350px", display: "flex", justifyContent: "center" }}></div>
     </div>
   );
 };
