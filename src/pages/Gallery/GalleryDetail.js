@@ -5,31 +5,28 @@ const GalleryDetail = () => {
   const { id } = useParams();
   const items = [
     {
-      id: 1,
+      id: 1, // Add a unique ID
       imageUrl:
-        "https://i.pinimg.com/736x/ed/22/1e/ed221e92254431b5b48972e0c017803f.jpg",
+        "https://i.pinimg.com/736x/bf/59/29/bf5929324e682886037420a9cc4db246.jpg",
       name: "Calvin Renaldo",
       title: "Canvas of Chaos",
       category: "Category",
-      description: "An abstract depiction of chaos in a canvas.",
     },
     {
       id: 2,
       imageUrl:
-        "https://i.pinimg.com/474x/fe/f7/f4/fef7f4a9f23c741245d82625a33ae103.jpg",
+        "https://i.pinimg.com/474x/42/f6/cb/42f6cb28d28b8b99f88a8df2f7bcdaca.jpg",
       name: "Dzaky Chesta",
       title: "Monochrome Lament",
       category: "Category",
-      description: "A somber tone captured in black and white.",
     },
     {
       id: 3,
       imageUrl:
-        "https://i.pinimg.com/236x/19/42/fe/1942fe4fc33d98082a96cefb0c3422b5.jpg",
+        "https://i.pinimg.com/736x/06/e2/08/06e208ef91c3de8ed44ecc875613faac.jpg",
       name: "Shellen Putri",
       title: "Chromatic Echo",
       category: "Category",
-      description: "A vivid exploration of chromatic harmony.",
     },
   ];
 
